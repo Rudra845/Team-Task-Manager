@@ -22,6 +22,8 @@ npm start
 ```
 
 Open `http://localhost:3000`.
+or
+deploy on railway - "team-task-manager-production-139b.up.railway.app"
 
 No external npm dependencies are required. The app uses Node.js built-in modules only.
 
