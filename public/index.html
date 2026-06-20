@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Task Manager</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main id="app"></main>
+    <template id="auth-template">
+      <section class="auth-shell">
+        <div class="auth-panel">
+          <div>
+            <p class="eyebrow">Team Task Manager</p>
+            <h1>Plan work, assign owners, and track delivery.</h1>
+          </div>
+          <div class="tabs" role="tablist">
+            <button class="tab active" data-auth-tab="login">Login</button>
+            <button class="tab" data-auth-tab="signup">Signup</button>
+          </div>
+          <form id="auth-form" class="stack">
+            <label class="field signup-only hidden">
+              <span>Name</span>
+              <input name="name" autocomplete="name">
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" required>
+            </label>
+            <label class="field">
+              <span>Password</span>
+              <input name="password" type="password" autocomplete="current-password" required minlength="6">
+            </label>
+            <button class="primary" type="submit">Login</button>
+            <p class="form-message" id="auth-message"></p>
+          </form>
+        </div>
+      </section>
+    </template>
+  </body>
+  <script src="/app.js"></script>
+</html>

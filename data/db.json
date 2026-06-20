@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "RUDRA SRIVASTAVA",
+      "email": "rudraprakash845@gmail.com",
+      "passwordHash": "61349de7911531f19fcf38af6550031d:4c65865c37d6624c36c855d2ebbf736f65714822818d74eb148c558f13553849c879dc2efdd0c874c79f4919409e6ebdebc0200e931fc3bbf1d7ccdf084fc16d",
+      "createdAt": "2026-06-20T09:43:12.696Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "new",
+      "description": "",
+      "createdBy": "1",
+      "createdAt": "2026-06-20T09:43:31.252Z"
+    }
+  ],
+  "memberships": [
+    {
+      "projectId": "1",
+      "userId": "1",
+      "role": "Admin",
+      "joinedAt": "2026-06-20T09:43:31.252Z"
+    }
+  ],
+  "tasks": [],
+  "sessions": [],
+  "counters": {
+    "user": 2,
+    "project": 2,
+    "task": 1
+  }
+}
